@@ -1,0 +1,23 @@
+{
+  "name": "hexnode-filevault-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esrun src/index.ts"
+  },
+  "keywords": [],
+  "author": "kevin.brown@exogee.com",
+  "license": "MIT",
+  "dependencies": {
+    "@digitak/esrun": "^3.2.24",
+    "got": "^13.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.4",
+    "@tsconfig/node18": "^18.2.0",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/got": "^9.6.12",
+    "@types/node": "^20.4.5"
+  }
+}

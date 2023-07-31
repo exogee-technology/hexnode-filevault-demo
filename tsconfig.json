@@ -1,0 +1,15 @@
+{
+	"extends": [
+		"@tsconfig/node18/tsconfig.json",
+		"@tsconfig/strictest/tsconfig.json",
+		"@tsconfig/esm/tsconfig.json"
+	],
+
+	"compilerOptions": {
+		"emitDeclarationOnly": true,
+		"declaration": true
+	},
+
+	// Make sure we exclude built files and any dependencies we're not in charge of building ourselves.
+	"exclude": ["**/node_modules/**", "**/lib/**"]
+}
